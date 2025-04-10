@@ -2241,16 +2241,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 100.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8c77ab-c495-433c-8376-66f2a7997f74")
-	)
-	(wire
-		(pts
 			(xy 173.99 125.73) (xy 173.99 110.49)
 		)
 		(stroke
@@ -2258,6 +2248,16 @@
 			(type default)
 		)
 		(uuid "13259c19-8708-4c35-96d3-46f407d52e3f")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e473d4-9568-43ee-a001-173d525f21fd")
 	)
 	(wire
 		(pts
@@ -2298,16 +2298,6 @@
 			(type default)
 		)
 		(uuid "29de1cb6-2fe6-47b3-8f79-18cdaf81c4d2")
-	)
-	(wire
-		(pts
-			(xy 120.65 62.23) (xy 120.65 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb83a56-66fa-4977-b9ba-1c74189de831")
 	)
 	(wire
 		(pts
@@ -2381,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b372edf-f89b-44b8-8d9a-3731151e88fd")
+	)
+	(wire
+		(pts
 			(xy 167.64 113.03) (xy 152.4 113.03)
 		)
 		(stroke
@@ -2421,6 +2421,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 62.23) (xy 120.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58643fa0-5849-48bd-bea0-4f2607ea7eef")
+	)
+	(wire
+		(pts
 			(xy 190.5 97.79) (xy 205.74 97.79)
 		)
 		(stroke
@@ -2438,16 +2448,6 @@
 			(type default)
 		)
 		(uuid "58d1e5c2-dc9b-4610-931b-f0140639b55c")
-	)
-	(wire
-		(pts
-			(xy 102.87 92.71) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a819e73-af8a-4b31-9994-63cd0bf10c9e")
 	)
 	(wire
 		(pts
@@ -2711,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 95.25) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2a1351-a163-4226-a80f-db91d03aff23")
+	)
+	(wire
+		(pts
 			(xy 167.64 123.19) (xy 167.64 113.03)
 		)
 		(stroke
@@ -2738,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "ab2de5f4-0b2c-4b9d-ab33-85d8dc3e2479")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab86fe5c-f182-4590-9332-9a15f8d0216b")
 	)
 	(wire
 		(pts
@@ -2801,16 +2821,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 100.33 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde27fe3-7867-47eb-850a-b868030e20da")
-	)
-	(wire
-		(pts
 			(xy 156.21 118.11) (xy 152.4 118.11)
 		)
 		(stroke
@@ -2861,16 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 124.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c491e4-9b6c-4757-9247-c5501730d277")
-	)
-	(wire
-		(pts
 			(xy 220.98 83.82) (xy 166.37 83.82)
 		)
 		(stroke
@@ -2891,13 +2891,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 102.87 92.71)
+			(xy 102.87 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee996c5c-7013-42c4-b7ac-234087ac1fdc")
+		(uuid "efaa42d3-1409-4f2a-8b7e-eac9f6067db7")
 	)
 	(wire
 		(pts
@@ -2919,6 +2919,36 @@
 		)
 		(uuid "fdc83dbf-58e4-496d-a352-faaaa3076b34")
 	)
+	(label "VCC"
+		(at 110.49 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0efb17b6-da1f-4f91-9590-8511a6c10ade")
+	)
+	(label "GND"
+		(at 110.49 90.17 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "39f4d577-1e5f-4b16-bc0b-5deb8d4117f8")
+	)
+	(label "JUMPER ONLY FOR FLASHING"
+		(at 156.21 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a386ea9-151a-4385-bc22-ee87545a988d")
+	)
 	(label "P10 Led Panel Controller Board Based on ESP-12E"
 		(at 189.23 190.5 0)
 		(effects
@@ -2928,6 +2958,56 @@
 			(justify left bottom)
 		)
 		(uuid "443e9f24-eff0-40b8-9f19-58876ed39f61")
+	)
+	(label "RESET"
+		(at 125.73 64.77 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "628a2109-d2a3-45f9-95fc-78b2ada91f0f")
+	)
+	(label "VCC 3.3v"
+		(at 123.19 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "805dc2a8-3136-4994-89b8-061c79e54608")
+	)
+	(label "GND"
+		(at 128.27 59.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6af971d-3e50-4177-8348-4e20a2910ed4")
+	)
+	(label "TX"
+		(at 129.54 67.31 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2781f6b-f976-4599-9712-b91764044b69")
+	)
+	(label "RX"
+		(at 129.54 69.85 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f32c8846-21e8-4c69-b6f2-038b19c29924")
 	)
 	(symbol
 		(lib_id "power:Earth")
