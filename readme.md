@@ -7,6 +7,6 @@ This project is done to minimize cost of government office. In market normally Q
 - 2k Terminal Display
 - 1k Call Pad
 ...........
-Total 28k
+- Total 28k
 
 Paste content from footprints and symbols folder to respective folder in KiCad in documents directory.
