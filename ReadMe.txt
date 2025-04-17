@@ -1,0 +1,1 @@
+Paste content from footprints and symbols folder to respective folder in KiCad in documents directory.
