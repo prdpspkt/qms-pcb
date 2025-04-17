@@ -2990,6 +2990,16 @@
 		)
 		(uuid "57290049-7baf-4c7c-be78-34c56a9b8275")
 	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 143.51 127.254 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "61466d45-e524-44b1-92ff-6d1039432424")
+	)
 	(text "10K"
 		(exclude_from_sim no)
 		(at 139.7 143.51 0)
