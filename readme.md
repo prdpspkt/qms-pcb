@@ -11,3 +11,7 @@ This project is done to minimize cost of government office. In market normally Q
 
 ### Installation
 Paste content from footprints and symbols folder to respective folder in KiCad in documents directory.
+
+
+### Programming
+
