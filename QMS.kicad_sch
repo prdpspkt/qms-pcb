@@ -201,6 +201,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -3239,25 +3381,6 @@
 			)
 		)
 	)
-	(label "EN"
-		(at 152.4 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "449d17a1-7158-43bf-9ab9-7a96e87ae6f2")
-		(property "EN" ""
-			(at 152.4 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
 	(label "ADC"
 		(at 97.79 60.96 180)
 		(effects
@@ -3296,25 +3419,6 @@
 			(justify left bottom)
 		)
 		(uuid "599368c5-dc85-4f2f-8d89-89573546b6af")
-	)
-	(label "GPIO15"
-		(at 152.4 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c6c6373-6b3c-4d38-9782-52748b0a6a93")
-		(property "GPIO15" ""
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
 	)
 	(label "RST"
 		(at 97.79 50.8 180)
@@ -3368,7 +3472,7 @@
 		(uuid "7d8b02c3-279a-4bef-bd56-313a11b0338d")
 	)
 	(label "GPIO0"
-		(at 152.4 87.63 180)
+		(at 149.86 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3481,7 @@
 		)
 		(uuid "81e59788-b651-40b0-98ba-52a0e3cdc393")
 		(property "GPIO0" ""
-			(at 152.4 87.63 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3511,7 @@
 		(uuid "8638b610-0eb5-4ad7-a880-b74a86d2ed01")
 	)
 	(label "GND"
-		(at 152.4 92.71 180)
+		(at 149.86 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3416,7 +3520,7 @@
 		)
 		(uuid "88cd68d3-b9a2-47af-8421-01992166e26a")
 		(property "GND" ""
-			(at 152.4 92.71 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,8 +3539,9 @@
 		)
 		(uuid "8ad91236-e22f-49c7-9c6b-094cd45e0270")
 	)
-	(label "GPIO15"
+	(label "GND"
 		(at 128.27 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,6 +3549,16 @@
 			(justify left bottom)
 		)
 		(uuid "9b170e4a-46f1-4192-b699-14dff53ebb8a")
+		(property "GND" ""
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GPIO16"
 		(at 128.27 76.2 0)
@@ -3663,25 +3778,6 @@
 		)
 	)
 	(label "VCC"
-		(at 152.4 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec1c1c2c-f481-4adc-b377-f1677ea9de0a")
-		(property "VCC" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(label "VCC"
 		(at 113.03 45.72 90)
 		(effects
 			(font
@@ -3702,8 +3798,8 @@
 		(uuid "f355f5fa-7c9a-4152-99eb-a1994a75095c")
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x5_Male")
-		(at 156.21 92.71 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3712,7 +3808,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce9c07e-4a90-484f-9732-732611a51b0a")
 		(property "Reference" "J8"
-			(at 158.75 92.7099 0)
+			(at 157.48 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3817,7 @@
 			)
 		)
 		(property "Value" "PINHD_1x5_Male"
-			(at 158.75 93.9799 0)
+			(at 157.48 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,16 +3826,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyConnectors:PinHeader_1x05_P2.54mm_Vertical"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 81.28 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,8 +3835,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -5"
-			(at 156.21 92.71 0)
+		(property "Datasheet" "~"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,17 +3856,8 @@
 		(pin "1"
 			(uuid "2d42745b-0ac5-4ec8-ac47-11dfedadb251")
 		)
-		(pin "3"
-			(uuid "32cba34b-2620-4d79-9eed-04874893690c")
-		)
-		(pin "5"
-			(uuid "f9faf24a-0869-47ea-a7ae-2f10fcfeb3a6")
-		)
 		(pin "2"
 			(uuid "e202e811-d9b5-43e4-bbc6-10eec660a1ae")
-		)
-		(pin "4"
-			(uuid "e433d005-67b3-4cfc-8d69-7b1deeb3b81a")
 		)
 		(instances
 			(project "QMS"
