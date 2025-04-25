@@ -2731,10 +2731,6 @@
 		(uuid "2db1b875-830a-44dc-979f-f0b959deae93")
 	)
 	(no_connect
-		(at 128.27 55.88)
-		(uuid "2f385161-0b5a-4d09-8ecc-53ce4bdd5406")
-	)
-	(no_connect
 		(at 161.29 55.88)
 		(uuid "38aac936-c882-4cba-a395-0144c1feba6e")
 	)
@@ -3439,16 +3435,6 @@
 		)
 		(uuid "8ad91236-e22f-49c7-9c6b-094cd45e0270")
 	)
-	(label "GPIO2"
-		(at 128.27 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a216961-33cf-4d52-b2c1-efa32e596458")
-	)
 	(label "GPIO15"
 		(at 128.27 73.66 0)
 		(effects
@@ -3468,6 +3454,25 @@
 			(justify left bottom)
 		)
 		(uuid "9e632850-14a3-47a6-a3bc-c0d734c6e808")
+	)
+	(label "VCC"
+		(at 128.27 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f92d898-e79e-45b5-ba5e-d8ff14bd052d")
+		(property "VCC" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(label "VCC"
 		(at 187.96 91.44 180)
