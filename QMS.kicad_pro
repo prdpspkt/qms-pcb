@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 2.5
+          "drill": 0.6,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -125,20 +125,20 @@
         "max_error": 0.005,
         "min_clearance": 0.5,
         "min_connection": 0.5,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 1.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.5,
-        "min_hole_to_hole": 0.5,
-        "min_microvia_diameter": 0.8,
-        "min_microvia_drill": 0.4,
+        "min_hole_to_hole": 1.5,
+        "min_microvia_diameter": 1.5,
+        "min_microvia_drill": 0.5,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.5,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.4,
+        "min_through_hole_diameter": 0.5,
         "min_track_width": 0.5,
         "min_via_annular_width": 0.5,
-        "min_via_diameter": 1.0,
+        "min_via_diameter": 1.8,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -187,8 +187,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.5
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -240,7 +239,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1524000|1155700|e4928734-4842-48a3-ad35-0701b33c4f13|2e26d56a-26ff-4181-963c-72832302cf98|/b4d342bb-da80-4115-88e7-82c8d6bb24f3|/b4d342bb-da80-4115-88e7-82c8d6bb24f3|/b4d342bb-da80-4115-88e7-82c8d6bb24f3",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -479,13 +483,13 @@
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.8,
-        "microvia_drill": 0.4,
+        "microvia_drill": 0.5,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.5,
+        "via_diameter": 1.8,
         "via_drill": 0.8,
         "wire_width": 6
       }
@@ -499,6 +503,10 @@
       {
         "netclass": "Default",
         "pattern": "*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/5V"
       }
     ]
   },
@@ -617,6 +625,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
