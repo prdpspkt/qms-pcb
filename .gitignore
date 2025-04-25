@@ -1,2 +1,2 @@
-*-backups
-~*.kicad_pcb.lck
+*-backups/
+*.kicad_pcb.lck
